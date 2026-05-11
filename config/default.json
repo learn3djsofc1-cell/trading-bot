@@ -1,0 +1,19 @@
+{
+  "host": "127.0.0.1",
+  "port": 8787,
+  "authToken": "CHANGE_ME_LONG_RANDOM_TOKEN",
+  "masterId": "MASTER_A",
+  "followerId": "FOLLOWER_B",
+  "symbol": "XAUUSDr",
+  "maxSnapshotAgeMs": 5000,
+  "staleAlertEveryMs": 60000,
+  "telegram": {
+    "enabled": false,
+    "botToken": "",
+    "chatId": ""
+  },
+  "storage": {
+    "stateFile": "data/state.json",
+    "eventLogFile": "logs/events.jsonl"
+  }
+}

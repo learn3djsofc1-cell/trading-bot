@@ -1,0 +1,23 @@
+{
+  "name": "mt5-xauusdr-copy-trading-relay",
+  "version": "1.0.0",
+  "description": "Production-ready local relay for MT5 master/follower copy trading on XAUUSDr.",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "check": "node --check src/server.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "keywords": [
+    "mt5",
+    "mql5",
+    "copy-trading",
+    "xauusd"
+  ],
+  "author": "",
+  "license": "UNLICENSED"
+}
